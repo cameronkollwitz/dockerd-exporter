@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add --no-cache socat 
+RUN apk add --no-cache socat
 
 ENV IN="172.18.0.1:9323" \
     OUT="9323"
